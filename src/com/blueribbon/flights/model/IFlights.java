@@ -2,6 +2,7 @@ package com.blueribbon.flights.model;
 
 import java.util.List;
 
+
 public interface IFlights {
 
 	boolean isTicketAvailable(int ticketId);
@@ -11,4 +12,5 @@ public interface IFlights {
 	String isCouponValid(int couponId, double price);
 
 	void setCouponsList(List<Integer> coupons);
+	
 }

@@ -7,9 +7,12 @@ import java.util.Random;
 
 import javax.annotation.PostConstruct;
 
+import org.springframework.stereotype.Service;
+
 import com.blueribbon.flights.dto.Baggage;
 import com.blueribbon.flights.dto.Ticket;
 
+@Service
 public class FlightsEmbedded implements IFlights {
 
 	private static final double MIN_DISCOUNT = 10;
